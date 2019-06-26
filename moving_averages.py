@@ -1,3 +1,5 @@
+
+# load example data 
 J = [4, 4, 4, 9, 10, 11, 12]
 p = 3
 
@@ -21,6 +23,6 @@ def gen_seq(j_list: List[int], p: int) -> Dict[float, float]:
     output["max"] = max(avgs)
     return output
         
-        
+
 print(gen_seq(j_list=J, p=p))
 
