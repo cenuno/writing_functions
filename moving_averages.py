@@ -26,3 +26,4 @@ def gen_seq(j_list: List[int], p: int) -> Dict[float, float]:
 
 print(gen_seq(j_list=J, p=p))
 
+# end of script #
